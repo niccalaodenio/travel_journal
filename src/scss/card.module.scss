@@ -1,0 +1,59 @@
+$fs:0.64rem;
+.img {
+  max-width: 125px;
+  height: 168px;
+}
+
+.con {
+  padding: 1.2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.icon {
+  color: #f55a5a;
+}
+
+.description{
+ justify-self: center;
+ align-self: center;
+}
+
+.country {
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  margin-left: 0.2rem;
+  margin-right: 0.7rem;
+  font-size: $fs;
+  //padding-top: .1rem;
+}
+
+.link {
+  font-size: $fs;
+  color: #918e9b;
+}
+
+.h1 {
+  font-size: 1.65rem;
+}
+.h2mt {
+  margin-top: 0.3rem;
+}
+.h2mb {
+  margin-bottom: 0.7rem;
+}
+.date {
+  font: {
+    size: $fs;
+    weight: bold;
+  }
+}
+
+.textDescription {
+  margin-top: .3rem;
+  word-break: break-word;
+  text-align: justify;
+  font: {
+    size: $fs;
+  }
+}
